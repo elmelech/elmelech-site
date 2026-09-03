@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Roey Elmelech — Solutions Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+</head>
+<body>
+
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">Roey Elmelech</a>
+      <ul class="nav-links">
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li class="nav-cta"><a href="https://www.linkedin.com/in/elmelech/" target="_blank">LinkedIn ↗</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="page-content">
+
+    <!-- ── HERO ── -->
+    <section class="hero">
+      <div class="dot-pattern"></div>
+      <div class="wrap">
+        <div class="hero-grid">
+          <div class="hero-text">
+            <h1 class="hero-h1"><span style="color: #0d1a12;">&lt;Insert some eye-catching aspirational quote </span><span style="color: #0f5234;">here&gt;</span></h1>
+            <p class="hero-bio">Yes, this website was <strong>built</strong> with Claude, not because I couldn’t do it myself, but because <strong>I</strong> <strong>encourage utilizing AI where it makes sense</strong> - when it can save time and help you focus on the important tasks. The content, however, is all me, since I believe in <strong>authenticity</strong> and <strong>keeping things real</strong>. This is my approach with my colleagues, partners, and clients. </p>
+            <div class="hero-ctas">
+              <a href="https://www.linkedin.com/in/elmelech/" target="_blank" class="btn btn-p">
+                Connect on LinkedIn ↗
+              </a>
+              <a href="resume.html" class="btn btn-o">View Resume</a>
+            </div>
+          </div>
+          <div class="hero-photo-wrap">
+            <img
+              src="headshot.jpg"
+              alt="Roey Elmelech"
+              class="hero-photo"
+            />
+            <div class="stat-card">
+              <div class="mono-label">Experience</div>
+              <div class="stat-num">10+ Years</div>
+              <div class="stat-sub">across 5 sectors</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── PILLARS ── -->
+    <section class="section">
+      <div class="wrap">
+        <span class="eyebrow">WHAT I BRING TO THE TABLE</span>
+        <h2 class="section-h">Forward thinking with go-getter attitude.</h2>
+        <p class="section-lead">
+          Always looking at every problem from <strong>multiple angles</strong>, and not afraid to <strong>roll up my sleeves</strong> — I'll come with a proposed solution, or ask thoughtful questions that will point the subject matter experts <strong>in the right direction</strong>.
+        </p>
+        <div class="pillars-grid">
+
+          <div class="pillar">
+            <div class="pillar-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+            </div>
+            <div class="pillar-h">Technical Depth</div>
+            <p class="pillar-p">
+              Columbia CS fundamentals, solutions architecture with complex integrations across multiple systems, and full-stack development. Grounded in how things actually work under the hood and how they impact the outcome.
+            </p>
+          </div>
+
+          <div class="pillar">
+            <div class="pillar-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <div class="pillar-h">Client Intelligence</div>
+            <p class="pillar-p">
+              Guiding 30+ soldiers' platoon, serving and ensuring the safety of passengers at 30,000 feet, managing large-scale projects with C-suite stakeholders — I've built trust across high-stakes, cross-cultural environments where clear communication is non-negotiable.
+            </p>
+          </div>
+
+          <div class="pillar">
+            <div class="pillar-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="18" cy="5" r="3"></circle>
+                <circle cx="6" cy="12" r="3"></circle>
+                <circle cx="18" cy="19" r="3"></circle>
+                <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+                <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+              </svg>
+            </div>
+            <div class="pillar-h">The Bridge</div>
+            <p class="pillar-p">
+              My edge is translation — between codebases and boardrooms, between
+              engineering constraints and business goals. I make technology
+              legible to the people who need it most, ensuring our shared path to success is a happy one to walk through.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </div><!-- /.page-content -->
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span class="footer-brand">Roey Elmelech</span>
+      <nav class="footer-links">
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <span class="footer-copy">© 2026 · relmelech@gmail.com</span>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelectorAll('.nav-links a:not([target="_blank"])').forEach(a => {
+      if (a.href === window.location.href) a.classList.add('active');
+    });
+  </script>
+</body>
+</html>
